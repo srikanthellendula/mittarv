@@ -1,0 +1,46 @@
+.home-cont{
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 400px;
+    width: 500px;
+    border-radius: 10%;
+}
+input[type='search']{
+    padding: 10px;
+    width: 25vw;
+    border-radius: 10px;
+  }
+
+input[type='text']{
+    padding: 2%;
+    width: 20vw;
+}
+
+.add-note-cont{
+    position: absolute;
+    top: 80vh;
+    right: 10vh;
+}
+
+.add-note-btn{
+     border: 0px solid rgb(179, 174, 248);
+     background-color: rgb(163, 163, 240);
+     padding: 10px;
+     border-radius: 5px;
+     margin: 10px;
+}
+
+.btn-cont{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
